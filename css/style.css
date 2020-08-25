@@ -596,6 +596,15 @@ footer {
     color: white;
 }
 
+.pacifico {
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    color: #F68928;
+}
+
 @media only screen and (max-width: 1199px) {
     .features-prospareto {
         margin-top: 10%;
@@ -651,6 +660,9 @@ footer {
     .mob-nav {
         display: block;
     }
+    #second-col-footer {
+        margin-top: 60px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -688,15 +700,20 @@ footer {
         font-size: 48px;
     }
     .hero-bg {
-        height: 700px;
+        height: 600px;
     }
     .heading {
-        font-size: 60px;
+        font-size: 48px;
+        text-shadow: 40px 16px 0px rgba(241, 148, 65, 0.2);
     }
     .about-us-text {
         margin-left: 3%;
     }
     .mob-nav {
         display: block;
+    }
+    .footer-quote,
+    .pacifico {
+        font-size: 40px
     }
 }
