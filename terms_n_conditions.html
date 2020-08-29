@@ -16,11 +16,19 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
+    .col-sm-7{
+      text-align: justify;
+    }
         .left {
             height: 60vh;
-            overflow: scroll;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 15%;
+
         }
-        
+
         .right-subhead {
             font-family: Poppins;
             font-style: normal;
@@ -28,19 +36,23 @@
             font-size: 36px;
             color: #F19441;
         }
-        
+
         .col-sm-3 a {
             text-decoration: none !;
             color: black;
             opacity: 0.8;
         }
-        
+
         @media only screen and (max-width: 992px) {
             .col-sm-3 {
                 display: none;
             }
+            .body-top{
+              padding: 50px;
+            }
+
         }
-        
+
         @media only screen and (max-width: 575px) {
             #footer-priv-policy {
                 margin-top: 52px;
@@ -100,7 +112,7 @@
     </nav>
 
     <div class="container">
-        <div class="row" style="margin-top: 60px;">
+        <div class="row body-top" style="margin-top: 60px;">
             <a href="index.html"><img src="assets/logo.svg" alt=""></a>
 
         </div>
@@ -237,7 +249,7 @@
             </div>
 
             <div class="col-sm-7" style="margin-left:4%">
-                <div class="row">
+                <div class="row content-1">
                     <span class="heading">Terms & Conditions</span>
                 </div>
                 <br>
